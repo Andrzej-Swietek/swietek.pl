@@ -15,10 +15,6 @@
   <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
   <link rel="Shortcut icon" href="img/ikona-www.png" />
   <meta name="viewport" content="width=device-width">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="./parallax/parallax.js"></script>
-
-
 </head>
 
 <body>
@@ -200,13 +196,8 @@
             Addicionaly I like some sports like soccer, archery and tennis. <br>
             During my exchange program I stay in Tunckhannock, in Pennsylvania, in USA. Tunkhannock is little city in
             the north of Pennsylvania, near Scranton.
-
-
-
             <br>
-
-
-          </p></a>
+          </p>
         </div>
 
 
@@ -230,8 +221,8 @@
         <p> <i class="em em-flag-pl"></i> Ta część bloga poświęcona jest bieżącym relacjom z wymiany. <i
             class="em em-flag-pl"></i> </p>
         <p> <i class="em em-flag-um"></i> This part of the blog is devoted to the current sentences of exchange
-          program.<i class="em em-flag-um"></i></p>
-        </aside>
+          program.<i class="em em-flag-um"></i>
+        </p>
 
         <div class="article-column-view">
         </div>
@@ -1134,35 +1125,10 @@
           });
         </script>
       </div>
-      <!-- <div class="zdjecie-ruchome">
-        <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2"
-          data-image-src="./img/dom-k.jpg" style="height: 681px;"></div>
-
-        <script>
-          $('.parallax-window').parallax({
-            imageSrc: 'img/dom-k.jpg'
-          });
-        </script>
-      </div> -->
-
 
     </article>
 
-
-
-
-
   </main>
-
-
-
-
-
-
-
-
-
-
 
 
   <footer class="page-footer">
@@ -1182,86 +1148,9 @@
     <a href="#" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a>
   </div>
 
-  <script>
-    var hamburger = document.querySelector(".hamburger");
-    hamburger.addEventListener("click", function () {
-      var isExpanded = hamburger.getAttribute("aria-expanded");
-      console.log(isExpanded);
-      if (isExpanded === "false") {
-        document.querySelector(".page-header").classList.add("nav-opened");
-        hamburger.setAttribute("aria-expanded", "true");
-      } else {
-        document.querySelector(".page-header").classList.remove("nav-opened");
-        hamburger.setAttribute("aria-expanded", "false");
-      }
-    }, false);
-    hamburger.setAttribute("role", "button");
-    hamburger.setAttribute("aria-controls", "navigation");
-    hamburger.setAttribute("aria-expanded", "false");
-    document.body.classList.add("js");
-  </script>
-  <script>
-    let anchorlinks = document.querySelectorAll('a[href^="#"]')
 
-    for (let item of anchorlinks) { // relitere 
-      item.addEventListener('click', (e) => {
-        let hashval = item.getAttribute('href')
-        let target = document.querySelector(hashval)
-        target.scrollIntoView({
-          behavior: 'smooth'
-        })
-        history.pushState(null, null, hashval)
-        e.preventDefault()
-      })
-    }
-  </script>
-  <script>
-
-    const collapses = document.querySelectorAll('.collapse');
-    for (const collapse of collapses) {
-      const base = collapse.firstElementChild;
-      const button = base.children[1];
-
-      const magicCol = collapse.lastElementChild;
-      // teraz defaultowo jest rozwinięty więc dałem na true
-      magicCol.setAttribute('aria-expanded', false);
-
-      button.onclick = () => {
-        magicCol.classList.toggle('discription-closed');
-        const currentAriaState = magicCol.attributes['aria-expanded'].nodeValue;
-        console.log(currentAriaState);
-        magicCol.setAttribute('aria-expanded', currentAriaState === 'true' ? false : true);
-      }
-    }
-  </script>
-  <script>
-        const c = document.querySelectorAll('.collapse');//bo tyle teł nam trzeba tak?
-    var arr = new Array(
-      "trip/dc.jpg",
-      "trip/grandCanyon.jpg",
-      "trip/route66.jpg",
-      "trip/grandCanyon2.jpg", 
-      "trip/piknik.jpg",
-      "trip/piknik2.jpg",
-      "trip/riverwalk.jpg",
-      "trip/dolly.jpg",
-      "trip/nasa.jpg",
-      "trip/NewMexico.jpg",
-      "trip/NO2.jpg",
-      "trip/horses.jpg",
-      "trip/caves6.jpg", 
-      "trip/vegas.jpg"      
-    );
-    console.log(arr[1]);//ok.. tu jeszcze działa
-    const i = 0;
-    for ( i; i < arr.length; i++) {
-      c.style.backgroundImage = 'url(${arr[i]})'; //i kazdemu grzecznie wpisujemy tlo ;(
-    }
-
-  </script>
-
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="parallax/parallax.js"></script>
+<script src="js/main.js"></script>
 </body>
-
 </html>
