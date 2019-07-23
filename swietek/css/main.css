@@ -182,7 +182,6 @@ body {
   padding-top: 100px;
   padding-bottom: 20px;
   text-align: center;
-
   box-sizing: border-box;
   min-height: 80vh;
   color: #ffffff;
@@ -231,6 +230,7 @@ body {
   max-width: 1020px;
   margin: auto;
   box-sizing: border-box;
+  margin-top: 50px;
 }
 
 .article-image {
