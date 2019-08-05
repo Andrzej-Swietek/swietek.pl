@@ -3,7 +3,7 @@
 My Rotary Youth Exchange Website
 ----------------------------------
 ----------------------------------
-Technologies: HTML5, CSS, JS -> Responsive
+Technologies: HTML5, JS, CSS -> Responsive
 ----------------------------------
 ## License: Beerware
 
