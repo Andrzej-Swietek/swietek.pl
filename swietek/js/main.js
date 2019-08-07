@@ -95,20 +95,32 @@ for (let item of anchorlinks) {
 console.log('a tutaj');
 
 const backgroundImagesArr = new Array(
-  'trip/dc.jpg',
-  'trip/grandCanyon.jpg',
-  'trip/route66.jpg',
-  'trip/grandCanyon2.jpg',
-  'trip/piknik.jpg',
-  'trip/piknik2.jpg',
-  'trip/riverwalk.jpg',
-  'trip/dolly.jpg',
-  'trip/nasa.jpg',
-  'trip/NewMexico.jpg',
-  'trip/NO2.jpg',
-  'trip/horses.jpg',
-  'trip/caves6.jpg',
-  'trip/vegas.jpg'
+  'trip/day1.jpg',
+  'trip/day2.jpg',
+  'trip/day3.jpg',
+  'trip/day4.jpg',
+  'trip/day5.jpg',
+  'trip/day6.jpg',
+  'trip/day7.jpg',
+  'trip/day8.jpg',
+  'trip/day9.jpg',
+  'trip/day10.jpg',
+  'trip/day11-3.jpg',
+  'trip/day12.jpg',
+  'trip/day13.jpg',
+  'trip/day14.jpg',
+  'trip/day15.jpg',
+  'trip/day16.jpg',
+  'trip/day17.jpg',
+  'trip/day18.jpg',
+  'trip/day19.jpg',
+  'trip/day20.jpg',
+  'trip/day21.jpg',
+  'trip/day22.jpg',
+   'trip/day23.jpg'
+  // 'trip/day24.jpg',
+  // 'trip/day25.jpg',
+  // 'trip/day26.jpg'
 );
 
 let iterator = 0;
