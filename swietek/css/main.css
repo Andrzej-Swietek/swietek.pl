@@ -485,6 +485,50 @@ margin-right: 5vw;
 }
 } */
 
+.page-nav2 {
+  position:relative;
+  margin-top: 10vh;
+}
+
+.page-nav2 ul {
+
+  opacity: 1;
+  pointer-events: auto;
+  width: 100vw;
+  margin-right: 0px;
+  margin-left: 0;
+}
+
+.page-nav2  ul li {
+  display: inline-block;
+  border: 0;
+
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  }
+
+.page-nav2  ul li a {
+  color: #708090;
+  text-decoration: none;
+}
+.page-nav2  ul li a:hover {
+background: #edefef;
+
+
+}
+
+.page-nav2 ul li a {
+
+padding: 10px;
+padding-right: 20px;
+padding-left: 20px;
+}
+ .link-aktywny {
+background: white;
+
+box-shadow: 3px 5px 5px #9daab1;
+} 
 /*-------------------  BIGGER --- SCREEN --------------------*/
 
 @media only screen and (min-width: 40em) {
