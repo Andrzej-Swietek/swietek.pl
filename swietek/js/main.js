@@ -112,15 +112,13 @@ const backgroundImagesArr = new Array(
   'trip/day15.jpg',
   'trip/day16.jpg',
   'trip/day17.jpg',
-  'trip/day18.jpg',
-  'trip/day19.jpg',
   'trip/day20.jpg',
   'trip/day21.jpg',
   'trip/day22.jpg',
-   'trip/day23.jpg'
-  // 'trip/day24.jpg',
-  // 'trip/day25.jpg',
-  // 'trip/day26.jpg'
+  'trip/day23.jpg',
+  'trip/day24.jpg',
+  'trip/day25.jpg'
+
 );
 
 let iterator = 0;

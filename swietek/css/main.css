@@ -386,9 +386,11 @@ border-color:transparent #0089e0 transparent transparent;
 .collapse{
   height: auto;
   align-content: center;
-  width: 80vh;
+  width: 100vw;
   padding-top: 1%;
   padding-bottom: 1%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .collapse .base{
   /* background: #dd4b39; */
