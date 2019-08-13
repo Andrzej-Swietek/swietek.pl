@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="du">
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Video Gallery</title>
+        <meta name="description" content="This is my awesome video channel.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/video-gallery.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="screen" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- Content -->
+            <section class="content__section">
+                <div class="playlist__one">
+                    <h4 class="playlist__title">Videos from my Exchange</h4>
+                    <div class="videos">
+                        <div class="video" style="background-image: url(image/image-1.jpg)">
+                            <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/O4VJk05M1xA" data-gall="myGallery"><i class="fas fa-play-circle"></i></a>
+                        </div>
+                        <div class="video" style="background-image: url(image/image-10.jpg)">
+                            <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/RD_hvIhi1T4" data-gall="myGallery"><i class="fas fa-play-circle"></i></a>
+                        </div>
+                        <div class="video" style="background-image: url(image/image-11.jpg)">
+                            <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/gKmf5vp0jhA" data-gall="myGallery"><i class="fas fa-play-circle"></i></a>
+                        </div>
+                        <div class="video" style="background-image: url(image/image-10.jpg)">
+                            <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/_AF2T1fISng" data-gall="myGallery"><i class="fas fa-play-circle"></i></a>
+                        </div>
+                        <div class="video" style="background-image: url(image/image-1.jpg)">
+                            <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/KEvu6dXRi4o" data-gall="myGallery"><i class="fas fa-play-circle"></i></a>
+                        </div>
+                        <div class="video" style="background-image: url(image/image-11.jpg)">
+                            <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/arwM3sdtVt4" data-gall="myGallery"><i class="fas fa-play-circle"></i></a>
+                        </div>
+                        <div class="video" style="background-image: url(image/image-10.jpg)">
+                            <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/-PxhSP6P028" data-gall="myGallery"><i class="fas fa-play-circle"></i></a>
+                        </div>
+                        <div class="video" style="background-image: url(image/image-1.jpg)">
+                            <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/2dTGPhxHkfE" data-gall="myGallery"><i class="fas fa-play-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </section><!-- End Content Section -->
+        </div><!-- End Wrapper -->
+        <script type="text/javascript" src="jquery/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="venobox/venobox.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.venobox').venobox({
+                    closeColor: '#f4f4f4',
+                    spinColor: '#f4f4f4',
+                    arrowsColor: '#f4f4f4',
+                    closeBackground: '#17191D',
+                    overlayColor: 'rgba(23,25,29,0.8)'
+                }); 
+            });
+        </script>
+    </body>
+</html>

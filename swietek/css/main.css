@@ -12,6 +12,13 @@ body {
   font-size: 1.6rem;
 
 }
+
+.vid-gal{
+  margin-top: 5vh;
+  width: 100vw;
+  height: 80vh;
+  margin-bottom: 5vh;
+}
 .horizontal-nav {
   background: #efefef;
   border-radius: 6px;
@@ -768,23 +775,27 @@ padding-left: 94%;
   color: white;
 }
 
-.twitter {
+.mail {
   background: #55ACEE;
   color: white;
 }
 
-.google {
-  background: #dd4b39;
+.whatsapp {
+  background: #04b30d;
   color: white;
 }
 
 .linkedin {
   background: #007bb5;
   color: white;
+  background-image: url('../img/insta.jpeg');
+}
+.icon-bar .linkedin:hover{
+  background: #000;
 }
 
 .youtube {
-  background: #bb0000;
+  background: #1d1b1b;
   color: white;
 }
 
