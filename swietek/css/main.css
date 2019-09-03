@@ -443,7 +443,7 @@ margin-right: 5vw;
   background: rgba(226, 222, 222, 0.486);
   /* display: inline-block; */
   border-radius: 50px;
-  overflow-y: scroll;
+  overflow-y: hidden;
   display: inline-block;
 }
 
