@@ -15,9 +15,10 @@ body {
 
 .vid-gal{
   margin-top: 5vh;
-  width: 100vw;
+  width: 99%;
   height: 80vh;
   margin-bottom: 5vh;
+  padding-left: 0.5%;
 }
 .horizontal-nav {
   background: #efefef;
