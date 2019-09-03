@@ -18,7 +18,9 @@ body {
   width: 99%;
   height: 80vh;
   margin-bottom: 5vh;
-  padding-left: 0.5%;
+  border: none;
+  margin-left: 0.5%;
+  overflow: hidden;
 }
 .horizontal-nav {
   background: #efefef;
